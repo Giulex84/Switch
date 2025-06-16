@@ -1,0 +1,16 @@
+{
+  "name": "SwitchPi",
+  "short_name": "SwitchPi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffcc00",
+  "description": "DApp per mini-task e ricompense con Pi Network",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

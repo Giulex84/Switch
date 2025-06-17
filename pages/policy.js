@@ -1,29 +1,34 @@
 export default function PrivacyPolicy() {
   return (
-    <main style={{ padding: '2rem' }}>
+    <div style={{ padding: "2rem" }}>
       <h1>Privacy Policy</h1>
-      <p>Last updated: June 16, 2025</p>
-
+      <p>Last updated: June 17, 2025</p>
       <p>
-        This Privacy Policy explains how Switch ("we", "our", or "us") collects, uses, and protects your information when you use our Pi Network-integrated app.
+        Your privacy is important to us. This privacy policy explains how we
+        collect, use, and protect your information when you use our service.
       </p>
-
       <h2>Information We Collect</h2>
       <ul>
-        <li>We may collect your Pi username, public profile, and other data provided by the Pi SDK.</li>
-        <li>No sensitive or personal data is stored or shared without your consent.</li>
+        <li>Personal data (like name, email) you provide us</li>
+        <li>Usage data (like pages visited, time spent)</li>
       </ul>
-
       <h2>How We Use Your Information</h2>
-      <ul>
-        <li>To provide core app functionality (e.g., login, identification).</li>
-        <li>To improve the experience and ensure security.</li>
-      </ul>
-
+      <p>
+        To operate and improve our service, communicate with you, and comply
+        with legal obligations.
+      </p>
       <h2>Third-Party Services</h2>
-      <p>We use the official Pi Network SDK. We do not share your data with any other third-party services.</p>
-
+      <p>
+        We may use third-party services like analytics providers, which may
+        collect data in accordance with their policies.
+      </p>
       <h2>Your Rights</h2>
-      <p>You can request that we delete your data at any time by contacting us.</p>
-
-      <
+      <p>
+        You may request to access, correct, or delete your personal data by
+        contacting us.
+      </p>
+      <h2>Contact</h2>
+      <p>If you have any questions: giulex84@example.com</p>
+    </div>
+  );
+}

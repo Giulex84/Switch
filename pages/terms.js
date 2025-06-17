@@ -1,31 +1,34 @@
-export default function TermsOfUse() {
+export default function PrivacyPolicy() {
   return (
-    <main style={{ padding: '2rem' }}>
-      <h1>Terms of Use</h1>
-      <p>Last updated: June 16, 2025</p>
-
-      <p>Welcome to Switch. By using this app, you agree to the following terms and conditions.</p>
-
-      <h2>Use of the App</h2>
+    <div style={{ padding: "2rem" }}>
+      <h1>Privacy Policy</h1>
+      <p>Last updated: June 17, 2025</p>
+      <p>
+        Your privacy is important to us. This privacy policy explains how we
+        collect, use, and protect your information when you use our service.
+      </p>
+      <h2>Information We Collect</h2>
       <ul>
-        <li>The app is for entertainment and social use only.</li>
-        <li>You must not use it for any illegal or unauthorized purpose.</li>
+        <li>Personal data (like name, email) you provide us</li>
+        <li>Usage data (like pages visited, time spent)</li>
       </ul>
-
-      <h2>Account and Access</h2>
-      <p>Access is provided through the Pi Network login system. You are responsible for maintaining the security of your account.</p>
-
-      <h2>Intellectual Property</h2>
-      <p>All content, branding, and features in this app belong to the creators of Switch unless otherwise stated.</p>
-
-      <h2>Limitation of Liability</h2>
-      <p>We are not liable for any direct or indirect damages resulting from your use of the app.</p>
-
-      <h2>Changes to These Terms</h2>
-      <p>We may update these terms from time to time. Continued use of the app means you accept the updated terms.</p>
-
+      <h2>How We Use Your Information</h2>
+      <p>
+        To operate and improve our service, communicate with you, and comply
+        with legal obligations.
+      </p>
+      <h2>Third-Party Services</h2>
+      <p>
+        We may use third-party services like analytics providers, which may
+        collect data in accordance with their policies.
+      </p>
+      <h2>Your Rights</h2>
+      <p>
+        You may request to access, correct, or delete your personal data by
+        contacting us.
+      </p>
       <h2>Contact</h2>
-      <p>For questions about these Terms, contact us at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    </main>
+      <p>If you have any questions: giulex84@example.com</p>
+    </div>
   );
 }
